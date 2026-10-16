@@ -113,7 +113,7 @@ Administrator	Manage accounts and settings
 All wireframes are mid-fidelity and static. Images are stored in
 `wireframes/`.
 5.1 Log in
-![Log in screen](wireframes/01-login.png)
+![Log in screen](Wireframes/01-login.png)
 Purpose: let returning users access their account.
 Key elements: BatchBite logo, username and password fields, Log in button, "Forgot
 password?" link, and a "Create one" button for new users.
