@@ -121,7 +121,7 @@ Design choices: one primary action per screen; the sign-up route is a secondary 
 below a divider so it does not compete with Log in.
 Requirements: US-01, FR-01, NFR-03.
 5.2 Sign up
-![Sign up screen](wireframes/02-signup.png)
+![Sign up screen](Wireframes/02-signup.png)
 Purpose: let new customers create an account.
 Key elements: logo, username, password and confirm-password fields, Sign up button, and
 a link back to Log in.
@@ -129,7 +129,7 @@ Design choices: a confirm-password field reduces typing mistakes; the layout mir
 Log in screen so the two feel like one flow.
 Requirements: US-01, FR-01, NFR-03.
 5.3 Home
-![Home screen](wireframes/03-home.png)
+![Home screen](Wireframes/03-home.png)
 Purpose: show customers which batches are open to order.
 Key elements:
 top bar with logo and cart icon (with item count),
@@ -154,22 +154,22 @@ quantity left, variants and closing time). Ingredient and allergen information i
 available but collapsed to keep the page short.
 Requirements: US-02, US-03, FR-02, FR-04.
 Item page 1: Dessert box
-![Item page 1](wireframes/04-item-page-1.png)
+![Item page 1](Wireframes/04-item-page-1.png)
 Standard open batch with variant options and plenty of quantity remaining.
 Item page 2: Brownie tray
-![Item page 2](wireframes/04-item-page-2.png)
+![Item page 2](Wireframes/04-item-page-2.png)
 Same layout with a "Closing soon" deadline, showing how urgency is displayed.
 Item page 3: Cupcake set
-![Item page 3](wireframes/04-item-page-3.png)
+![Item page 3](Wireframes/04-item-page-3.png)
 Same layout for a batch with pickup available today.
 Item page 4: Cookie pack
-![Item page 4](wireframes/04-item-page-4.png)
+![Item page 4](Wireframes/04-item-page-4.png)
 Same layout for a sold-out batch, showing the next batch date instead of an active order button.
 Item page 5: [product name]
-![Item page 5](wireframes/04-item-page-5.png)
+![Item page 5](Wireframes/04-item-page-5.png)
 [One line describing what this page shows.]
 5.5 Cart and pickup
-![Cart and pickup screen](wireframes/05-cart-checkout.png)
+![Cart and pickup screen](Wireframes/05-cart-checkout.png)
 Purpose: let the customer review items, choose a pickup slot and confirm the order.
 Key elements: cart items with quantity controls, pickup slot options showing places
 left (full slots cannot be selected), a note field for the baker, subtotal and total, a
@@ -178,7 +178,7 @@ Design choices: the pickup slot limit is visible to the customer before they con
 which reduces failed checkouts. Payment is clearly labelled as simulated.
 Requirements: US-03, US-04, FR-04, FR-06, FR-07.
 5.6 Create batch (business owner)
-![Create batch screen](wireframes/06-create-batch.png)
+![Create batch screen](Wireframes/06-create-batch.png)
 Purpose: let the owner open a limited production run for a product.
 Key elements: product selector, maximum quantity stepper, order deadline (date and
 time), collection date and time, a "Customers will see" preview, and Save draft and Publish
