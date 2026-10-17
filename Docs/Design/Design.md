@@ -275,53 +275,6 @@ The diagram models the core data needed for the Foundation features.
   record.
 ---
 
-Order State Diagram
- 
-![Order state diagram](BatchBite_State_Diagram.png)
- 
-The state diagram shows the life cycle of an `Order`, using the values of the `OrderStatus`
-enumeration. An order is created in the **Confirmed** state after a successful checkout,
-stock validation and pickup-slot reservation. It then moves forward through production and
-ends in one of two final states: **Collected** or **Cancelled**.
- 
-### States
- 
-| State | Meaning |
-|---|---|
-| **Confirmed** | Starting state. The order is placed, the quantity and pickup slot are reserved, and the simulated payment is confirmed. |
-| **Preparing** | Production of the order has started. |
-| **Ready** | The order is prepared and waiting for collection. |
-| **Collected** | The customer has picked up the order. Final state. |
-| **Cancelled** | The order was cancelled by an authorised business owner. Final state. |
- 
-### Transitions
- 
-| From | To | Event | Condition |
-|---|---|---|---|
-| (start) | Confirmed | Order created at checkout | Checkout succeeded, stock validated, pickup slot reserved |
-| Confirmed | Preparing | `startPreparation()` | None |
-| Preparing | Ready | `markReady()` | None |
-| Ready | Collected | `confirmCollection()` | None |
-| Confirmed | Cancelled | `cancel()` | Owner authorised |
-| Collected | (end) | None | Final state |
-| Cancelled | (end) | None | Final state |
- 
-### Rules shown by the diagram
-- **Only the transitions shown are allowed.** Any other change, for example Confirmed to
-  Collected or Preparing to Cancelled, is rejected.
-- **An order cannot be collected before it is ready.** Collected can only be reached from
-  Ready.
-- **Cancellation is permitted only from Confirmed, and only by the business owner.** Once
-  preparation has started, the order can no longer be cancelled.
-- **Collected and Cancelled are final states.** They cannot change to another status.
-- A cancelled order leaves the active production list, and its reserved quantity and pickup
-  slot are released so they can be sold again.
-### Relationship to the class diagram
-The states are the values of the `OrderStatus` enumeration. `Order.cancel()` implements the
-cancellation transition, and the other events (`startPreparation()`, `markReady()` and
-`confirmCollection()`) are status changes applied through `Order.updateStatus(newStatus)`,
-which must reject any change that this diagram does not allow.
-
 ## 7. Order State Diagram
  
 ![Order state diagram](BatchBite_State_Diagram.png)
