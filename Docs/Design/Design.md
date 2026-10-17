@@ -6,7 +6,7 @@
 
 **Project:** BatchBite, a preorder and production platform for small food businesses
 
-**Team:** Abdulrahman Kamal Almaghraby, Ali Mohamed J. Alfardan, Kishan Biju, Muhammad Shaheem and Saad Zeyad Alalyan
+**Team:** Abdulrahman Kamal Almaghraby, Ali Mohamed Alfardan, Kishan Biju, Muhammad Shaheem and Saad Zeyad Alalyan
 
 **Figma file (view only):** https://www.figma.com/design/kGIH8fVIBXmGCX8LAoIqQp/Untitled?node-id=0-1&t=5fuOyMTOfvGKWUcx-1
  
