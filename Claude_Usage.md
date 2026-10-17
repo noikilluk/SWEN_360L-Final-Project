@@ -7,14 +7,14 @@ too, so everyone knows how AI is used on this project and what is expected from 
  
 ## Placements of files
  
-| What | Where |
+| File | Location |
 |---|---|
-| Requirements (user stories, functional and non-functional requirements) | `docs/requirements.md` |
-| Initial design (architecture, wireframes, class and state diagrams) | `docs/design/design.md` |
-| Wireframe images | `docs/design/wireframes/` |
-| Class and state diagrams | `docs/design/BatchBite_Class_Diagram.png`, `docs/design/BatchBite_State_Diagram.png` |
-| Meeting minutes and stand-up logs | `docs/meeting-minutes/` |
-| Tasks | Cards on the team's GitHub Projects Kanban board |
+| Requirements (user stories, functional and non-functional requirements) | `Docs/Requirements.md` |
+| Initial design (architecture, wireframes, class and state diagrams) | `Docs/Design/Design.md` |
+| Wireframe images | `docs/Design/wireframes/` |
+| Class and state diagrams | `Docs/Design/BatchBite_Class_Diagram.png`, `Docs/Design/BatchBite_State_Diagram.png` |
+| Meeting minutes and stand-up logs | `Docs/Proof/Meeting-minutes.md` |
+
  
 ## The project
  
@@ -24,7 +24,7 @@ too, so everyone knows how AI is used on this project and what is expected from 
   sees confirmed demand.
 - Course: SWEN 360 Software Design and Engineering, Project 6, Assignment 01
   (Requirements Analysis and Initial Design).
-- Team: Shaheem (Scrum Master, compiles `design.md`), Ali (UML diagrams and reviewing),
+- Team: Shaheem (Scrum Master, compiles `Design.md`), Ali (UML diagrams and reviewing),
   Saad (user stories in the requirements), Abdulrahman (wireframes and requirements),
   Kishan (wireframes).
 - Sprint 1 is a planning and design sprint: requirements, wireframes, architecture and UML
@@ -40,7 +40,7 @@ Uses that are fine:
 - Explaining concepts and formats (user stories, UML, Kanban, GitHub pull requests).
 - Brainstorming ideas, layouts and examples to react to.
 - Giving feedback on a member's draft, diagram or wireframe and pointing out gaps.
-- Producing first drafts of team documents (for example sections of `design.md`), which the
+- Producing first drafts of team documents (for example sections of `Design.md`), which the
   team then checks against the real project and edits.
 - Formatting notes that a member supplies.
 Uses that are not fine:
