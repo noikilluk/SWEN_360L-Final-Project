@@ -4,18 +4,7 @@
  
 AI assistants used in this repo (such as Claude) read this file. Team members should read it
 too, so everyone knows how AI is used on this project and what is expected from it.
- 
-## Placements of files
- 
-| File | Location |
-|---|---|
-| Requirements (user stories, functional and non-functional requirements) | `Docs/Requirements.md` |
-| Initial design (architecture, wireframes, class and state diagrams) | `Docs/Design/Design.md` |
-| Wireframe images | `docs/Design/wireframes/` |
-| Class and state diagrams | `Docs/Design/BatchBite_Class_Diagram.png`, `Docs/Design/BatchBite_State_Diagram.png` |
-| Meeting minutes and stand-up logs | `Docs/Proof/Meeting-minutes.md` |
 
- 
 ## The project
  
 - BatchBite helps home bakers, student food stalls and small kitchens manage limited
