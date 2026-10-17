@@ -2,7 +2,7 @@
 
 This folder documents how the team tracked Sprint 1 on its Kanban board, with screenshots
 from the beginning, middle and end of the sprint, and the meeting minutes in
-[`meeting-minutes.md`](meeting-minutes.md).
+[`meeting-minutes.md`](Meeting-minutes.md).
 
 **Board link:** https://github.com/users/noikilluk/projects/2
 **Sprint 1 goal:** Completing UML, Wireframes and requirements
