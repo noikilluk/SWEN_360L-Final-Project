@@ -28,7 +28,7 @@ _Edit the column names if your board uses different ones._
 
 ## Board at the beginning of Sprint 1
 
-![Kanban board at the beginning of Sprint 1](screenshots/kanban-beginning.png)
+![Kanban board at the beginning of Sprint 1](Screenshots/kanban-beginning.png)
 
 **Date of screenshot:** 10/14/2026
 The board held 5 cards, all of them wireframe tasks:
@@ -39,7 +39,7 @@ The board held 5 cards, all of them wireframe tasks:
 
 ## Board in the middle of Sprint 1
 
-![Kanban board in the middle of Sprint 1](screenshots/kanban-middle.png)
+![Kanban board in the middle of Sprint 1](Screenshots/kanban-middle.png)
 
 **Date of screenshot:** 10/15/2026
 - **In review (1):** #4 Checkout and cart wireframe
@@ -49,7 +49,7 @@ The board held 5 cards, all of them wireframe tasks:
 
 ## Board at the end of Sprint 1
 
-![Kanban board at the end of Sprint 1](screenshots/kanban-end.png)
+![Kanban board at the end of Sprint 1](Screenshots/kanban-end.png)
 
 **Date of screenshot:** 10/17/2026
 All 8 cards were in **Done**, and the other columns were empty. The last cards to be completed
