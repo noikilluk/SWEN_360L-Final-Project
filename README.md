@@ -2,10 +2,7 @@
  
 **A preorder and production platform for small food businesses.**
  
-BatchBite helps home bakers, student food stalls and small kitchens manage limited production
-through advance orders. A baker opens a production batch (for example, 40 dessert boxes for
-Thursday), customers choose what they want and a pickup slot, and the business sees confirmed
-demand instead of scattered messages.
+BatchBite is a tool for home bakers, student food stalls and small kitchens to control their limited production by placing advance orders. They start a production batch (for instance, 40 dessert boxes for Thursday), customers select what they desire and a pick up time and they receive confirmed demand rather than sporadic messages.
  
 ![BatchBite home page wireframe](Docs/Design/Wireframes/03-home.png)
  
