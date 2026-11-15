@@ -42,23 +42,23 @@ modules implemented as services running on the device.
 ```mermaid
 flowchart TB
     subgraph UI["Screens (src/app, src/components)"]
-        C[Customer tabs]
-        O[Owner tabs and tools]
-        K[Kitchen tabs]
-        A[Admin tabs]
+        C["Customer tabs"]
+        O["Owner tabs and tools"]
+        K["Kitchen tabs"]
+        A["Admin tabs"]
     end
-    subgraph Services["Services (src/services) — every rule and permission check"]
-        AU[Auth / Admin]
-        CAT[Catalogue: products, versions, ingredients]
-        BA[Batches and pickup slots]
-        CA[Cart]
-        OR[Orders: checkout, status, changes, refunds, QR, missed]
-        PR[Production tasks]
-        NO[Notifications]
+    subgraph Services["Services (src/services): every rule and permission check"]
+        AU["Auth / Admin"]
+        CAT["Catalogue: products, versions, ingredients"]
+        BA["Batches and pickup slots"]
+        CA["Cart"]
+        ORD["Orders: checkout, status, changes, refunds, QR, missed"]
+        PR["Production tasks"]
+        NO["Notifications"]
     end
-    D[Domain rules (src/domain): state machine, batch, recipe, money, permissions, insights]
-    DB[(Local database (src/data): serial, atomic transactions)]
-    S[(AsyncStorage / localStorage)]
+    D["Domain rules (src/domain): state machine, batch, recipe, money, permissions, insights"]
+    DB[("Local database (src/data): serial, atomic transactions")]
+    S[("AsyncStorage / localStorage")]
     UI --> Services
     UI -. read-only selectors .-> DB
     Services --> D
