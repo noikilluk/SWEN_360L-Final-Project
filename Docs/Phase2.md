@@ -2,7 +2,7 @@
 
 **Project:** BatchBite, a preorder and production platform intended for small food businesses
 **Team:** Group 10 (Abdulrahman, Ali, Kishan, Shaheem, Saad)
-**Phase 2 due:** 13 November 2026
+**Phase 2 due:** 15 November 2026
 
 This document explains what was built in Phase 2 and how it was tested.
 Setup instructions are in the bottom of [README](/README.md).
