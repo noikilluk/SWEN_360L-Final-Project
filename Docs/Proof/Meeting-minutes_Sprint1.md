@@ -2,7 +2,7 @@
 
 **Scrum Master:** Shaheem
 **Meeting platform:** Microsoft Teams
-**Participants:** _[map the Teams initials (KB, SA, MS, AA) to team member names]_
+**Participants:** Ali, Abdulrahman, Kishan and Saad
 
 ## Meetings held
 
