@@ -1,8 +1,6 @@
 ```mermaid
 classDiagram
     direction LR
-classDiagram
-    direction LR
     class Screens {
         Home page
         Cart
