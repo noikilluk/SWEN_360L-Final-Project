@@ -38,3 +38,38 @@ classDiagram
     ProductRepository --> LocalStorage
     AccountRepository --> LocalStorage
 ```
+
+
+```mermaid
+cclassDiagram
+    direction LR
+    class Order {
+        <<Subject>>
+        -status
+        -observers
+        +subscribe(observer)
+        +changeStatus(newStatus)
+        +notifyObservers()
+    }
+    class Observer {
+        <<interface>>
+        +update(order)
+    }
+    class OwnerDashboard {
+        +update(order)
+    }
+    class KitchenBoard {
+        +update(order)
+    }
+    class CustomerOrderTimeline {
+        +update(order)
+    }
+    class NotificationsInbox {
+        +update(order)
+    }
+    Order --> Observer : notifies on status change
+    Observer <|.. OwnerDashboard
+    Observer <|.. KitchenBoard
+    Observer <|.. CustomerOrderTimeline
+    Observer <|.. NotificationsInbox
+```
