@@ -14,8 +14,6 @@
 | 4 | Tue 13 Oct 2026 | 6:07 to 7:28 pm | 1h 20m 49s | Ali, Abdulrahman, Shaheem, Kishan and Saad |
 | 5 | Thu 15 Oct 2026 | 7:17 to 7:38 pm | 20m 20s | Ali, Abdulrahman, Shaheem, Kishan and Saad |
 
-_Dates and times come from the Teams meeting records. Check each one before submitting._
-
 ---
 
 ## 1. Sprint Planning
@@ -36,11 +34,6 @@ _Dates and times come from the Teams meeting records. Check each one before subm
 | #3 | Design Item page wireframe | Kishan, Abdulrahman |
 | #4 | Design Checkout and cart wireframe | Kishan, Abdulrahman |
 | #5 | Design Create Batch wireframe (owner) | Kishan |
- 
-Cards #6 (compile wireframes into the design document), #8 (Order State Diagram) and #9
-(Class Diagram) were added later in the sprint. Team roles: wireframes (you and Abdulrahman),
-UML diagrams and reviewing (Ali), user stories and requirements (Saad, Abdulrahman, Kishan),
-
 
 ---
 
