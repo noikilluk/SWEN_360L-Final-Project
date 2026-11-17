@@ -1,3 +1,6 @@
+```mermaid
+classDiagram
+    direction LR
 classDiagram
     direction LR
     class Screens {
@@ -36,3 +39,4 @@ classDiagram
     BatchRepository --> LocalStorage
     ProductRepository --> LocalStorage
     AccountRepository --> LocalStorage
+```
