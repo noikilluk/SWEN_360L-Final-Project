@@ -193,7 +193,9 @@ npm test
 | Phase 2(architecture, core features, layers, designs) | [`Docs/Phase2.md`](Docs/Phase2.md) |
 | Wireframe images | [`Docs/Design/Wireframes/`](Docs/Design/Wireframes/) |
 | Kanban board notes and screenshots | [`Docs/Proof/Kanban-board.md`](Docs/Proof/Kanban-board.md) |
-| Meeting minutes | [`Docs/Proof/Meeting-minutes.md`](Docs/Proof/Meeting-minutes.md) |
+| Kanban board notes and screenshots Sprint 2 | [`Docs/Proof/Kanban-board.md`](Docs/Proof/Kanban-board_Sprint2.md) |
+| Sprint 1 Meeting minutes | [`Docs/Proof/Meeting-minutes.md`](Docs/Proof/Meeting-minutes_Sprint1.md) |
+| Sprint 2 Meeting minutes | [`Docs/Proof/Meeting-minutes.md`](Docs/Proof/Meeting-minutes_Sprint2.md) |
 | How AI is used in this project | [`Claude_Usage.md`](Claude_Usage.md) |
  
 Tasks are tracked as cards on the team's GitHub Projects Kanban board.
