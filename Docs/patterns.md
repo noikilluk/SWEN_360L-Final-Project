@@ -41,7 +41,7 @@ classDiagram
 
 
 ```mermaid
-cclassDiagram
+classDiagram
     direction LR
     class Order {
         <<Subject>>
