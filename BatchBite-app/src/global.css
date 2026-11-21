@@ -1,0 +1,6 @@
+/* Web only: make the page background match the app and avoid horizontal scroll. */
+html,
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
